@@ -1,0 +1,36 @@
+.task-wrapper {
+  display: flex;
+  padding: 5px;
+}
+.task-title {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  flex: 1;
+}
+.task-icon {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-icon:hover {
+  background-color: whitesmoke;
+}
+.task-dark {
+  background-color: whitesmoke;
+}
+.task-dark .task-icon:hover {
+  background-color: white !important;
+}
+.cut {
+  text-decoration: line-through;
+  font-weight: 600;
+}
